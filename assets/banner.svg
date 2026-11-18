@@ -1,0 +1,143 @@
+<svg width="100%" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Hong Yik (@hyik007) — Full-Stack Developer &amp; AI Systems Builder">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="55%" stop-color="#0d1424" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+
+    <radialGradient id="glowCyan" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(180 60) rotate(32) scale(460 280)">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="glowIndigo" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1060 270) rotate(-145) scale(480 280)">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.20" />
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0" />
+    </radialGradient>
+
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#818cf8" />
+    </linearGradient>
+
+    <linearGradient id="termGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0b1120" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#070b14" stop-opacity="0.98" />
+    </linearGradient>
+
+    <pattern id="dotGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#334155" fill-opacity="0.35" />
+    </pattern>
+
+    <clipPath id="bannerClip">
+      <rect x="1" y="1" width="1198" height="318" rx="20" />
+    </clipPath>
+  </defs>
+
+  <style>
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace; }
+    @keyframes pulseDot {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.45; transform: scale(0.85); }
+    }
+    @keyframes pulseRing {
+      0% { opacity: 0.6; r: 4.5; }
+      75%, 100% { opacity: 0; r: 10; }
+    }
+    @keyframes blinkCursor {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    @keyframes floatSlow {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-3px); }
+    }
+    .status-dot { animation: pulseDot 2.2s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    .status-ring { animation: pulseRing 2.2s cubic-bezier(0, 0, 0.2, 1) infinite; }
+    .cursor { animation: blinkCursor 1.1s step-end infinite; }
+    .float-panel { animation: floatSlow 6s ease-in-out infinite; }
+  </style>
+
+  <g clip-path="url(#bannerClip)">
+    <!-- Background Base & Dot Grid -->
+    <rect x="0" y="0" width="1200" height="320" fill="url(#bgGrad)" />
+    <rect x="0" y="0" width="1200" height="320" fill="url(#dotGrid)" />
+    <rect x="0" y="0" width="1200" height="320" fill="url(#glowCyan)" />
+    <rect x="0" y="0" width="1200" height="320" fill="url(#glowIndigo)" />
+
+    <!-- Subtle Decorative Accent Line at Top -->
+    <rect x="48" y="1" width="220" height="2" fill="url(#accentGrad)" opacity="0.85" />
+
+    <!-- Left Column: Status Pill -->
+    <g transform="translate(48, 38)">
+      <rect x="0" y="0" width="368" height="30" rx="15" fill="#0f172a" stroke="#1e293b" stroke-width="1" />
+      <circle class="status-ring" cx="18" cy="15" r="4.5" fill="none" stroke="#10b981" stroke-width="1.5" />
+      <circle class="status-dot" cx="18" cy="15" r="4" fill="#10b981" />
+      <text x="32" y="19" class="mono" font-size="11" font-weight="600" letter-spacing="0.6" fill="#cbd5e1">AVAILABLE FOR COLLABORATION  •  UTC+8</text>
+    </g>
+
+    <!-- Left Column: Name & Handle -->
+    <text x="48" y="124" class="sans" font-size="40" font-weight="800" letter-spacing="-0.8" fill="#f8fafc">
+      Hi, I'm Hong Yik <tspan fill="url(#accentGrad)" font-size="30" font-weight="700">@hyik007</tspan>
+    </text>
+
+    <!-- Left Column: Role -->
+    <text x="48" y="162" class="sans" font-size="19" font-weight="600" fill="#cbd5e1">
+      Full-Stack Developer &amp; AI Systems Builder
+    </text>
+
+    <!-- Left Column: Tagline -->
+    <text x="48" y="198" class="sans" font-size="14.5" fill="#94a3b8">
+      Building AI memory portability, intelligent commerce POS platforms,
+    </text>
+    <text x="48" y="220" class="sans" font-size="14.5" fill="#94a3b8">
+      and offline computer-vision tools crafted for real-world impact.
+    </text>
+
+    <!-- Left Column: Tech Stack Micro-Pills -->
+    <g transform="translate(48, 248)">
+      <rect x="0" y="0" width="96" height="28" rx="8" fill="#111827" stroke="#1e293b" />
+      <text x="48" y="18" text-anchor="middle" class="mono" font-size="11.5" font-weight="600" fill="#38bdf8">TypeScript</text>
+
+      <rect x="106" y="0" width="84" height="28" rx="8" fill="#111827" stroke="#1e293b" />
+      <text x="148" y="18" text-anchor="middle" class="mono" font-size="11.5" font-weight="600" fill="#a78bfa">Next.js</text>
+
+      <rect x="200" y="0" width="98" height="28" rx="8" fill="#111827" stroke="#1e293b" />
+      <text x="249" y="18" text-anchor="middle" class="mono" font-size="11.5" font-weight="600" fill="#f87171">Laravel 13</text>
+
+      <rect x="308" y="0" width="94" height="28" rx="8" fill="#111827" stroke="#1e293b" />
+      <text x="355" y="18" text-anchor="middle" class="mono" font-size="11.5" font-weight="600" fill="#34d399">Python AI</text>
+    </g>
+
+    <!-- Right Column: Floating Terminal Telemetry Card -->
+    <g class="float-panel" transform="translate(652, 36)">
+      <rect x="0" y="0" width="500" height="248" rx="14" fill="url(#termGrad)" stroke="#1e293b" stroke-width="1.2" />
+
+      <!-- Terminal Title Bar -->
+      <path d="M 0 14 Q 0 0 14 0 L 486 0 Q 500 0 500 14 L 500 34 L 0 34 Z" fill="#111827" />
+      <line x1="0" y1="34" x2="500" y2="34" stroke="#1e293b" stroke-width="1" />
+      <circle cx="20" cy="17" r="5" fill="#ef4444" opacity="0.85" />
+      <circle cx="38" cy="17" r="5" fill="#f59e0b" opacity="0.85" />
+      <circle cx="56" cy="17" r="5" fill="#10b981" opacity="0.85" />
+      <text x="250" y="21" text-anchor="middle" class="mono" font-size="11.5" fill="#64748b">hyik007 — telemetry.zsh</text>
+
+      <!-- Terminal Content -->
+      <text x="22" y="64" class="mono" font-size="12.5" fill="#38bdf8">&gt; <tspan fill="#e2e8f0">whoami</tspan></text>
+      <text x="36" y="84" class="mono" font-size="12.5" fill="#a5f3fc">Hong Yik (@hyik007) • Malaysia</text>
+
+      <text x="22" y="114" class="mono" font-size="12.5" fill="#38bdf8">&gt; <tspan fill="#e2e8f0">focus</tspan></text>
+      <text x="36" y="134" class="mono" font-size="12.5" fill="#cbd5e1">AI Agents • Full-Stack Web • Computer Vision</text>
+
+      <text x="22" y="164" class="mono" font-size="12.5" fill="#38bdf8">&gt; <tspan fill="#e2e8f0">shipping</tspan></text>
+      <text x="36" y="184" class="mono" font-size="12.5" fill="#34d399">MemBridge • FeedYou POS • EzOrder • KinderAI</text>
+
+      <text x="22" y="214" class="mono" font-size="12.5" fill="#38bdf8">&gt; <tspan fill="#e2e8f0">motto</tspan></text>
+      <text x="36" y="234" class="mono" font-size="12.5" fill="#fbbf24">"Noot Noot 🐧 — ship fast, keep it clean."<tspan class="cursor" fill="#38bdf8"> ▌</tspan></text>
+    </g>
+  </g>
+
+  <!-- Outer Crisp Border -->
+  <rect x="1" y="1" width="1198" height="318" rx="20" stroke="#1e293b" stroke-width="1.5" fill="none" />
+</svg>

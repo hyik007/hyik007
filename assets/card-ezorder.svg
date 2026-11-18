@@ -1,0 +1,62 @@
+<svg width="100%" viewBox="0 0 580 165" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ezorder project card">
+  <defs>
+    <linearGradient id="cardBg" x1="0" y1="0" x2="580" y2="165" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#090d16" />
+    </linearGradient>
+    <radialGradient id="cardGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(520 20) rotate(140) scale(220 120)">
+      <stop offset="0%" stop-color="#818cf8" stop-opacity="0.16" />
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0" />
+    </radialGradient>
+    <clipPath id="cardClip">
+      <rect x="1" y="1" width="578" height="163" rx="14" />
+    </clipPath>
+  </defs>
+
+  <style>
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+  </style>
+
+  <g clip-path="url(#cardClip)">
+    <rect x="0" y="0" width="580" height="165" fill="url(#cardBg)" />
+    <rect x="0" y="0" width="580" height="165" fill="url(#cardGlow)" />
+    <rect x="24" y="1" width="110" height="2" fill="#818cf8" opacity="0.85" />
+
+    <!-- Repo Icon -->
+    <g transform="translate(24, 23)" stroke="#818cf8" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none">
+      <path d="M4 3.5h10a1.5 1.5 0 0 1 1.5 1.5v10a1.5 1.5 0 0 1-1.5 1.5H4A1.5 1.5 0 0 1 2.5 15V5A1.5 1.5 0 0 1 4 3.5Z" />
+      <path d="M6.5 7.5h5M6.5 11h3" />
+    </g>
+
+    <!-- Title -->
+    <text x="48" y="37" class="sans" font-size="17.5" font-weight="700" fill="#f8fafc">ezorder</text>
+
+    <!-- Status Pill -->
+    <rect x="434" y="19" width="122" height="24" rx="12" fill="#064e3b" fill-opacity="0.55" stroke="#10b981" stroke-opacity="0.45" />
+    <circle cx="448" cy="31" r="3" fill="#10b981" />
+    <text x="458" y="35" class="mono" font-size="10" font-weight="700" fill="#34d399">LIVE ON VERCEL</text>
+
+    <!-- Description -->
+    <text x="24" y="69" class="sans" font-size="13.5" fill="#94a3b8">
+      Modern full-stack digital ordering &amp; menu management experience
+    </text>
+    <text x="24" y="90" class="sans" font-size="13.5" fill="#94a3b8">
+      built for speed, mobile table-side checkout, and seamless kitchen
+    </text>
+    <text x="24" y="111" class="sans" font-size="13.5" fill="#94a3b8">
+      dispatch flow.
+    </text>
+
+    <!-- Footer Divider -->
+    <line x1="24" y1="128" x2="556" y2="128" stroke="#1e293b" stroke-width="1" />
+
+    <!-- Footer Metadata -->
+    <circle cx="30" cy="146" r="5" fill="#3178c6" />
+    <text x="43" y="150" class="sans" font-size="12" font-weight="600" fill="#cbd5e1">TypeScript</text>
+    <text x="132" y="150" class="mono" font-size="11.5" fill="#64748b">Next.js / Ordering UX</text>
+    <text x="556" y="150" text-anchor="end" class="mono" font-size="12" font-weight="600" fill="#38bdf8">ezorder-one.vercel.app ↗</text>
+  </g>
+
+  <rect x="1" y="1" width="578" height="163" rx="14" stroke="#1e293b" stroke-width="1.2" fill="none" />
+</svg>

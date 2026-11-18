@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hong Yik (@hyik007) — GitHub Profile Preview</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #0d1117;
+      --surface: #161b22;
+      --border: #30363d;
+      --text: #e6edf3;
+      --muted: #8b949e;
+      --accent: #38bdf8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 32px 16px 64px;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+    }
+    .gh-shell {
+      max-width: 896px;
+      margin: 0 auto;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 28px 32px;
+      background: var(--bg);
+    }
+    .gh-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 12px;
+      color: var(--muted);
+      padding-bottom: 14px;
+      margin-bottom: 20px;
+      border-bottom: 1px solid var(--border);
+    }
+    .center { text-align: center; }
+    .badges {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 8px;
+      margin: 14px 0 24px;
+    }
+    .badges img { height: 28px; border-radius: 4px; }
+    hr {
+      border: 0;
+      border-top: 1px solid var(--border);
+      margin: 28px 0;
+    }
+    h3 {
+      font-size: 18px;
+      font-weight: 600;
+      margin: 0 0 14px;
+      color: var(--text);
+    }
+    h3 code {
+      background: rgba(110, 118, 129, 0.25);
+      padding: 2px 7px;
+      border-radius: 6px;
+      font-size: 15px;
+    }
+    table.whoami {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    table.whoami th,
+    table.whoami td {
+      border: 1px solid var(--border);
+      padding: 9px 14px;
+      text-align: left;
+    }
+    table.whoami th {
+      background: var(--surface);
+      color: var(--text);
+      font-weight: 600;
+    }
+    .bento-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+    }
+    @media (max-width: 720px) {
+      .bento-grid { grid-template-columns: 1fr; }
+      .gh-shell { padding: 20px 16px; }
+    }
+    .bento-item { text-align: center; }
+    .bento-item img {
+      width: 100%;
+      display: block;
+      border-radius: 14px;
+      transition: transform 0.15s ease;
+    }
+    .bento-item a:hover img { transform: translateY(-2px); }
+    .bento-links {
+      margin-top: 8px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+    .bento-links a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .bento-links a:hover { text-decoration: underline; }
+    .stack-group { margin: 18px 0; }
+    .stack-label {
+      display: block;
+      font-size: 13.5px;
+      font-weight: 600;
+      margin-bottom: 10px;
+      color: var(--text);
+    }
+    .footer {
+      text-align: center;
+      font-size: 12.5px;
+      color: var(--muted);
+    }
+    .footer a { color: var(--accent); text-decoration: none; }
+  </style>
+</head>
+<body>
+  <main class="gh-shell">
+    <div class="gh-header">
+      <span>hyik007 / README.md</span>
+      <span>GitHub Profile Preview (Dark Mode)</span>
+    </div>
+
+    <div class="center">
+      <img src="./assets/banner.svg" alt="Hong Yik (@hyik007) Hero Banner" style="width:100%;border-radius:16px;" />
+      <div style="margin-top:12px;">
+        <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3200&pause=1000&color=38BDF8&center=true&vCenter=true&width=720&lines=Full-Stack+Developer+%26+AI+Systems+Builder;Creator+of+MemBridge%2C+FeedYou+POS+%26+KinderAI;Shipping+AI-Native+Web+Apps+%26+Smart+Automation;TypeScript+%E2%80%A2+Laravel+%E2%80%A2+Python+%E2%80%A2+Next.js" alt="Animated Typing Header" style="max-width:100%;" />
+      </div>
+      <div class="badges">
+        <a href="https://membridge.vercel.app"><img src="https://img.shields.io/badge/MemBridge-Live_App-0ea5e9?style=for-the-badge&logo=vercel&logoColor=white" alt="MemBridge" /></a>
+        <a href="https://feedyou-pos.vercel.app"><img src="https://img.shields.io/badge/FeedYou_POS-Live_App-ef4444?style=for-the-badge&logo=laravel&logoColor=white" alt="FeedYou POS" /></a>
+        <a href="https://ezorder-one.vercel.app"><img src="https://img.shields.io/badge/EzOrder-Live_App-6366f1?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="EzOrder" /></a>
+        <a href="https://github.com/hyik007?tab=followers"><img src="https://img.shields.io/github/followers/hyik007?label=Followers&style=for-the-badge&color=1e293b&labelColor=0f172a" alt="Followers" /></a>
+        <a href="mailto:d250180b@sc.edu.my"><img src="https://img.shields.io/badge/Email-Contact_Me-10b981?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+      </div>
+    </div>
+
+    <hr />
+
+    <h3><code>whoami</code></h3>
+    <table class="whoami">
+      <thead>
+        <tr>
+          <th>Focus Area</th>
+          <th>What I Build</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>AI Systems &amp; Portability</strong></td><td>Cross-model context teleportation, agent workflows, and practical LLM tooling</td></tr>
+        <tr><td><strong>Full-Stack Web &amp; Commerce</strong></td><td>End-to-end restaurant POS platforms, real-time KDS, and QR table ordering</td></tr>
+        <tr><td><strong>Applied Computer Vision</strong></td><td>Offline desktop recognition tools built for speed, privacy, and everyday teams</td></tr>
+        <tr><td><strong>Engineering Ethos</strong></td><td>Ship fast, keep interfaces calm, and let clean architecture do the heavy lifting</td></tr>
+      </tbody>
+    </table>
+
+    <hr />
+
+    <h3>Featured Projects</h3>
+    <div class="bento-grid">
+      <div class="bento-item">
+        <a href="https://github.com/hyik007/membridge"><img src="./assets/card-membridge.svg" alt="MemBridge" /></a>
+        <div class="bento-links">
+          <a href="https://membridge.vercel.app">Live App ↗</a> &nbsp;•&nbsp;
+          <a href="https://github.com/hyik007/membridge">Source Code ↗</a>
+        </div>
+      </div>
+      <div class="bento-item">
+        <a href="https://github.com/hyik007/feedyou-pos"><img src="./assets/card-feedyou.svg" alt="FeedYou POS" /></a>
+        <div class="bento-links">
+          <a href="https://feedyou-pos.vercel.app">Live App ↗</a> &nbsp;•&nbsp;
+          <a href="https://github.com/hyik007/feedyou-pos">Source Code ↗</a>
+        </div>
+      </div>
+      <div class="bento-item">
+        <a href="https://github.com/hyik007/ezorder"><img src="./assets/card-ezorder.svg" alt="EzOrder" /></a>
+        <div class="bento-links">
+          <a href="https://ezorder-one.vercel.app">Live App ↗</a> &nbsp;•&nbsp;
+          <a href="https://github.com/hyik007/ezorder">Source Code ↗</a>
+        </div>
+      </div>
+      <div class="bento-item">
+        <a href="https://github.com/hyik007/kinderai"><img src="./assets/card-kinderai.svg" alt="KinderAI &amp; KinderSort" /></a>
+        <div class="bento-links">
+          <a href="https://github.com/hyik007/KinderSort">KinderSort ↗</a> &nbsp;•&nbsp;
+          <a href="https://github.com/hyik007/kinderai">KinderAI Repo ↗</a>
+        </div>
+      </div>
+    </div>
+
+    <hr />
+
+    <h3>Tech Stack &amp; Toolkit</h3>
+    <div class="center">
+      <div class="stack-group">
+        <span class="stack-label">Languages &amp; Core</span>
+        <img src="https://skillicons.dev/icons?i=ts,js,py,php,html,css,postgres,bash&theme=dark" alt="Languages and Core" />
+      </div>
+      <div class="stack-group">
+        <span class="stack-label">Frameworks &amp; AI</span>
+        <img src="https://skillicons.dev/icons?i=nextjs,react,nodejs,laravel,tailwind,fastapi,pytorch,opencv&theme=dark" alt="Frameworks and AI" />
+      </div>
+      <div class="stack-group">
+        <span class="stack-label">Cloud, Data &amp; DevOps</span>
+        <img src="https://skillicons.dev/icons?i=vercel,docker,git,github,githubactions,mysql,sqlite,linux&theme=dark" alt="Cloud and DevOps" />
+      </div>
+    </div>
+
+    <hr />
+
+    <h3>GitHub Activity &amp; Contribution Snake</h3>
+    <div class="center">
+      <div style="margin-bottom:18px;">
+        <img src="https://streak-stats.demolab.com?user=hyik007&theme=tokyonight&hide_border=true&background=0D1117&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8" alt="GitHub Streak Stats" style="max-width:100%;" />
+      </div>
+      <img src="./dist/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Snake" style="width:100%;" />
+    </div>
+
+    <hr />
+
+    <div class="footer">
+      Noot Noot 🐧 • Crafted by Hong Yik (<a href="https://github.com/hyik007">@hyik007</a>)
+    </div>
+  </main>
+</body>
+</html>
