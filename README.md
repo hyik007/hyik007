@@ -21,7 +21,7 @@
   <a href="https://github.com/hyik007?tab=followers">
     <img src="https://img.shields.io/github/followers/hyik007?label=Followers&style=for-the-badge&color=1e293b&labelColor=0f172a" alt="GitHub Followers" />
   </a>
-  <a href="mailto:d250180b@sc.edu.my">
+  <a href="mailto:hylaw19@gmail.com">
     <img src="https://img.shields.io/badge/Email-Contact_Me-10b981?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Hong Yik" />
   </a>
 </p>
