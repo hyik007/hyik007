@@ -5,12 +5,18 @@
 <br />
 
 <a href="https://github.com/hyik007">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3200&pause=1000&color=38BDF8&center=true&vCenter=true&width=720&lines=Full-Stack+Developer+%26+AI+Systems+Builder;Creator+of+MemBridge%2C+FeedYou+POS+%26+KinderAI;Shipping+AI-Native+Web+Apps+%26+Smart+Automation;TypeScript+%E2%80%A2+Laravel+%E2%80%A2+Python+%E2%80%A2+Next.js" alt="Animated Typing Header" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3200&pause=1000&color=38BDF8&center=true&vCenter=true&width=720&lines=Full-Stack+Developer+%26+AI+Systems+Builder;Creator+of+MemBridge%2C+FeedYou+POS+%26+EzOrder;Shipping+AI-Native+Web+Apps+%26+MCP+Servers;TypeScript+%E2%80%A2+Laravel+%E2%80%A2+Python+%E2%80%A2+Next.js" alt="Animated Typing Header" />
 </a>
 
 <p>
+  <a href="https://hyik007.vercel.app">
+    <img src="https://img.shields.io/badge/Portfolio-hyik007.vercel.app-0284c7?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio Website" />
+  </a>
   <a href="https://membridge.vercel.app">
     <img src="https://img.shields.io/badge/MemBridge-Live_App-0ea5e9?style=for-the-badge&logo=vercel&logoColor=white" alt="MemBridge Live App" />
+  </a>
+  <a href="https://glama.ai/mcp/servers/hyik007/membridge">
+    <img src="https://img.shields.io/badge/Glama-MCP_Server-8b5cf6?style=for-the-badge&logo=openai&logoColor=white" alt="MemBridge on Glama MCP" />
   </a>
   <a href="https://feedyou-pos.vercel.app">
     <img src="https://img.shields.io/badge/FeedYou_POS-Live_App-ef4444?style=for-the-badge&logo=laravel&logoColor=white" alt="FeedYou POS Live App" />
