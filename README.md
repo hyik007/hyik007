@@ -15,8 +15,8 @@
   <a href="https://membridge.vercel.app">
     <img src="https://img.shields.io/badge/MemBridge-Live_App-0ea5e9?style=for-the-badge&logo=vercel&logoColor=white" alt="MemBridge Live App" />
   </a>
-  <a href="https://glama.ai/mcp/servers/hyik007/membridge">
-    <img src="https://img.shields.io/badge/Glama-MCP_Server-8b5cf6?style=for-the-badge&logo=openai&logoColor=white" alt="MemBridge on Glama MCP" />
+  <a href="https://cikgunote.vercel.app">
+    <img src="https://img.shields.io/badge/CikguNote-Live_App-1f5c47?style=for-the-badge&logo=vercel&logoColor=white" alt="CikguNote for Malaysian Teachers" />
   </a>
   <a href="https://feedyou-pos.vercel.app">
     <img src="https://img.shields.io/badge/FeedYou_POS-Live_App-ef4444?style=for-the-badge&logo=laravel&logoColor=white" alt="FeedYou POS Live App" />
@@ -29,6 +29,16 @@
   </a>
   <a href="mailto:hylaw19@gmail.com">
     <img src="https://img.shields.io/badge/Email-Contact_Me-10b981?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Hong Yik" />
+  </a>
+</p>
+
+<p>
+  <a href="https://glama.ai/mcp/servers/hyik007/membridge">
+    <img src="https://glama.ai/mcp/servers/hyik007/membridge/badges/score.svg" alt="hyik007/membridge MCP server on Glama" height="20" />
+  </a>
+  &nbsp;
+  <a href="https://m8ven.ai/mcp/hyik007-membridge-76ib6f?s=readme">
+    <img src="https://m8ven.ai/badge/mcp/hyik007-membridge-76ib6f?v=6aadb3915a7a5b85c37460d8cbf08c5c" alt="hyik007/membridge Verified on M8ven" height="20" />
   </a>
 </p>
 
